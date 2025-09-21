@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Raynn Point</title>
+    <link rel="website icon" type="jpg" href="img/logo.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Password Overlay -->
+    <div id="lockScreen">
+        <div class="lock-card">
+            <h2>🔒 Masukkan Password</h2>
+            <input type="password" id="sitePassword" placeholder="Password">
+            <button onclick="checkPassword()">Masuk</button>
+            <p id="errorMsg"></p>
+        </div>
+    </div>
+
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Raynn Point">
+            raynn <span>point</span>.
+        </div>
+
+        <div class="header-right">
+            <a href="userp.html" class="team-info">
+                <i data-feather="users"></i>
+                <span>Tim Raynn Point</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Running Text -->
+    <div class="running-text">
+        <div class="text-track">
+            <span>✨ Jasa Joki Rank Mobile Legends 🚀</span>
+            <span>💎 Top Up Mobile Legends cepat & aman</span>
+            <span>🎮 Minecraft: Java Edition, MCPE & Realms</span>
+            <span>🛠️ Resource Pack & Behavior Pack untuk Minecraft</span>
+            <span>🎨 Promo Custom Skin Minecraft Beli 2 skin cuma 35K 🎉</span>
+        </div>
+    </div>
+
+    <!-- Banner Slider -->
+    <div class="banner-container">
+        <div class="banner-slide">
+            <img src="img/banner1.jpg" alt="Banner 1">
+            <img src="img/banner2.jpg" alt="Banner 2">
+            <img src="img/banner3.jpg" alt="Banner 3">
+            <img src="img/banner4.jpg" alt="Banner 4">
+        </div>
+    </div>
+
+    <!-- Layanan -->
+    <section class="products">
+        <h2>🚀 Layanan Kami 🚀</h2>
+        <div class="product-grid">
+
+            <a href="joki.html" class="product-card">
+                <img src="img/layanan1.jpg" alt="Mobile Legends">
+                <div class="overlay">
+                    <div class="text">
+                        <span>Mobile Legends</span>
+                        <p>Joki Rank</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="topup.html" class="product-card">
+                <img src="img/layanan2.jpg" alt="Mobile Legends">
+                <div class="overlay">
+                    <div class="text">
+                        <span>Mobile Legends</span>
+                        <p>Top Up</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="mcgame.html" class="product-card">
+                <img src="img/layanan3.jpg" alt="Minecraft">
+                <div class="overlay">
+                    <div class="text">
+                        <span>Minecraft</span>
+                        <p>Paket Game</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="cskin.html" class="product-card">
+                <img src="img/layanan4.jpg" alt="Custom Skin">
+                <div class="overlay">
+                    <div class="text">
+                        <span>Minecraft</span>
+                        <p>Costum Skin</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="wd.html" class="product-card">
+                <img src="img/layanan5.jpg" alt="Web Dev">
+                <div class="overlay">
+                    <div class="text">
+                        <span>Digital</span>
+                        <p> Jasa Pembuatan Website</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <script>feather.replace();</script>
+    <script src="js/index.js"></script>
+</body>
+</html>
